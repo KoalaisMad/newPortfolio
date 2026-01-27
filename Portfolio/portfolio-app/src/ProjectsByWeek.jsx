@@ -10,8 +10,8 @@ const weekData = [
         title: 'EYEHAB',
         image: false,
         github: 'https://github.com/KoalaisMad',
-        description: 'A vision therapy app for eye exercises.',
-        problem: 'Helps users improve eye health with guided routines.',
+        description: 'A vision therapy for taking breaks from screen time.',
+        problem: 'We stare at screens all day, leading to eye strain and vision problems.',
         techStack: ['React', 'Vite', 'CSS', 'Node.js']
       },
     ],
@@ -24,7 +24,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'Automates email account configuration.',
-        problem: 'Simplifies the process of setting up new email accounts.',
+        problem: 'Helps with notifying me to reply to important emails quickly and efficiently using tabs and automation.',
         techStack: ['Node.js', 'Express']
       },
       {
@@ -32,7 +32,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'Finds music albums by artist or title.',
-        problem: 'Makes music discovery easier for users.',
+        problem: 'I\'m too lazy to make playlists on my own.',
         techStack: ['React', 'Spotify API']
       },
     ],
@@ -44,8 +44,8 @@ const weekData = [
         title: 'SUDOKU SOLVER',
         image: false,
         github: 'https://github.com/KoalaisMad',
-        description: 'Solves Sudoku puzzles instantly.',
-        problem: 'Assists users in solving complex Sudoku puzzles.',
+        description: 'Solves Sudoku puzzles instantly using DFS algorithm.',
+        problem: 'My roomate struggles with Sudoku puzzles and needs a key to check her work.',
         techStack: ['Python', 'React']
       },
       {
@@ -53,7 +53,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'A productivity timer based on the Pomodoro technique.',
-        problem: 'Helps users manage time and boost productivity.',
+        problem: 'Youtube pomodoro timers have too many ads and distractions.',
         techStack: ['React', 'CSS']
       },
     ],
@@ -74,7 +74,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'Generates QR codes for any text or URL.',
-        problem: 'Makes sharing information easy and contactless.',
+        problem: 'Too many ads on free QR code generators.',
         techStack: ['React', 'JavaScript']
       },
       {
@@ -82,7 +82,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'Displays daily positive affirmations.',
-        problem: 'Boosts user morale and positivity.',
+        problem: 'Helps improve mental well-being and positivity.',
         techStack: ['React', 'CSS']
       },
       {
@@ -90,7 +90,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'Visualizes YouTube channel analytics.',
-        problem: 'Helps creators understand their channel performance.',
+        problem: 'Helps you with doom scrolling and uneducational content.',
         techStack: ['React', 'YouTube API', 'Chart.js']
       },
     ],
@@ -103,7 +103,7 @@ const weekData = [
         image: false,
         github: 'https://github.com/KoalaisMad',
         description: 'A fun twist on classic Tic Tac Toe.',
-        problem: 'Provides a new way to play a classic game.',
+        problem: 'helps siblings play fair without a physical board.',
         techStack: ['React', 'CSS']
       },
       {
