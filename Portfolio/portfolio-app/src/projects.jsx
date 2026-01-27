@@ -4,6 +4,16 @@ import { useState } from 'react';
 
 const projects = [
   {
+    title: 'SIGMA PREDICTOR',
+    problem: 'Helping users make smarter everyday financial decisions by understanding how today’s spending impacts future savings and interest growth.',
+    description:
+      'Built an end-to-end personal finance forecasting platform with transaction-driven balance projections, daily interest calculations for checking and high-yield savings, and “what-if” simulations to preview transfers before execution. Developed predictive models to generate personalized insights, trend forecasts, and goal-based savings recommendations through an interactive dashboard.',
+    tech: 'CSS · ElevenLabs · Express.js · Figma · Gemini · Modeling · MongoDB · Next.js · Node.js · React · Recharts · shadcn/ui · Tailwind CSS · TypeScript · Vultr',
+    image: '/SigmaPredictor.png',
+    link:'https://devpost.com/software/sigma-predictor?ref_content=my-projects-tab&ref_feature=my_projects',
+    github: 'https://github.com/KoalaisMad/TAMUHACK2026'
+  },
+  {
     title: 'GIRLBOSS',
     problem: 'Helping women feel safer when walking alone.',
     description:
@@ -23,16 +33,16 @@ const projects = [
     link: '',
     github: ''
   },
-  {
-    title: 'AIR-TIC-TAC-TOE',
-    problem: 'Making Tic-Tac-Toe more enjoyable anywhere without a board or touchscreen.',
-    description:
-    'Built a computer-vision version of Tic-Tac-Toe where players draw moves in the air. Used OpenCV to track hand motion, recognize drawn strokes, and map gestures to grid coordinates with real-time visual feedback.',
-    tech: 'Python · OpenCV · NumPy · Computer Vision',
-    image: '/inprogress.png',
-    link: '',
-    github: ''
-  },
+  // {
+  //   title: 'AIR-TIC-TAC-TOE',
+  //   problem: 'Making Tic-Tac-Toe more enjoyable anywhere without a board or touchscreen.',
+  //   description:
+  //   'Built a computer-vision version of Tic-Tac-Toe where players draw moves in the air. Used OpenCV to track hand motion, recognize drawn strokes, and map gestures to grid coordinates with real-time visual feedback.',
+  //   tech: 'Python · OpenCV · NumPy · Computer Vision',
+  //   image: '/inprogress.png',
+  //   link: '',
+  //   github: ''
+  // },
   {
     title: 'SWIPETERN',
     problem: 'Making internship discovery simpler and more accessible for students.',
@@ -72,7 +82,7 @@ export default function Projects() {
   const [menuOpen, setMenuOpen] = useState(false);
   
   return (
-    <div className="projects-page">
+    <div className="projects-page" style={{ background: '#FAF7EE' }}>
       <header className="header">
         <div className="header-left">
           <h2 className="logo-text" style={{cursor: 'pointer'}} onClick={() => navigate('/')}>JYO MAD.</h2>

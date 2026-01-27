@@ -94,6 +94,7 @@ const responsiveStyles = `
 // FormData structure for useState
 
 export default function ContactForm() {
+  const pageBg = '#FAF7EE';
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -174,7 +175,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="portfolio">
+    <div className="portfolio" style={{ background: pageBg }}>
       <style>{responsiveStyles}</style>
       <header className="header">
         <div className="header-left">

@@ -2,8 +2,11 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import Projects from './projects';
+import ProjectsByWeek from './ProjectsByWeek';
 import ContactForm from './contactme';
-import RunningPage from './runningpage'; // Import the RunningPage component
+import RunningPage from './runningpage';
+import FiftyTwoByFiftyTwo from './52x52.jsx';
+import ProblemStatements from './ProblemStatements.jsx';
 const researchStamp = '/research-stamp.png';
 const projectsStamp = '/projects-stamp.png';
 const skillsStamp = '/skills-stamp.png';
@@ -12,7 +15,8 @@ const contactStamp = '/contact-stamp.png';
 const clubsStamp = '/clubs-stamp.png';
 const linkedinStamp = '/linkedin-stamp.png';
 const githubStamp = '/github-stamp.png';
-const photoBoothStamp = '/photo-booth-stamp.png';
+// const photoBoothStamp = '/photo-booth-stamp.png';
+const fiftyTwoByFiftyTwo = '/52x52.png';
 const postcardImage = '/postcard.png';
 
 function Home() {
@@ -28,11 +32,12 @@ function Home() {
     { label: 'CLUBS', value: '10¢', image: clubsStamp },
     { label: 'LINKEDIN', value: '8¢', image: linkedinStamp },
     { label: 'GITHUB', value: '10¢', image: githubStamp },
-    { label: 'PHOTO BOOTH', value: '5¢', image: photoBoothStamp },
+    // { label: 'PHOTO BOOTH', value: '5¢', image: photoBoothStamp },
+    { label: '52x52', value: '52¢', image: fiftyTwoByFiftyTwo },
   ]
 
   return (
-    <div className="portfolio">
+    <div className="portfolio" style={{ background: '#FAF7EE' }}>
       <header className="header">
         <div className="header-left">
           <h2 className="logo-text" style={{cursor: 'pointer'}} onClick={() => navigate('/')}>JYO MAD.</h2>
@@ -166,7 +171,7 @@ function Home() {
                 <img src={stamps[7].image} alt={stamps[7].label} className="stamp-image" />
               </div>
             </div>
-            <div className="stamp-card">
+            <div className="stamp-card" onClick={() => navigate('/52x52')} style={{ cursor: 'pointer' }}>
               <div className="stamp-content">
                 <img src={stamps[8].image} alt={stamps[8].label} className="stamp-image" />
               </div>
@@ -246,8 +251,11 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projectsbyweek" element={<ProjectsByWeek />} />
         <Route path="/contactme" element={<ContactForm />} />
-        <Route path="/runningpage" element={<RunningPage />} /> {/* Add the running page route */}
+        <Route path="/runningpage" element={<RunningPage />} />
+        <Route path="/52x52" element={<FiftyTwoByFiftyTwo />} />
+        <Route path="/problemstatements" element={<ProblemStatements />} />
       </Routes>
     </Router>
   );
