@@ -7,7 +7,7 @@ const projects = [
     title: 'SIGMA PREDICTOR',
     problem: 'Helping users make smarter everyday financial decisions by understanding how today’s spending impacts future savings and interest growth.',
     description:
-      'Built an end-to-end personal finance forecasting platform with transaction-driven balance projections, daily interest calculations for checking and high-yield savings, and “what-if” simulations to preview transfers before execution. Developed predictive models to generate personalized insights, trend forecasts, and goal-based savings recommendations through an interactive dashboard.',
+      'Built an end-to-end personal finance forecasting platform with transaction-driven balance projections, daily interest calculations for checking and high-yield savings, and “what-if” simulations to preview transfers before execution. Developed predictive models to generate personalized insights, trend forecasts, and goal-based savings recommendations through an interactive dashboard. Won 1st Place in USAA Challenge at TAMU Hack 2026.',
     tech: 'CSS · ElevenLabs · Express.js · Figma · Gemini · Modeling · MongoDB · Next.js · Node.js · React · Recharts · shadcn/ui · Tailwind CSS · TypeScript · Vultr',
     image: '/SigmaPredictor.png',
     link:'https://devpost.com/software/sigma-predictor?ref_content=my-projects-tab&ref_feature=my_projects',
@@ -117,7 +117,38 @@ export default function Projects() {
       <div className="projects-list">
         {projects.map((project, idx) => (
           <div className="project-card" key={idx}>
-            <img src={project.image} alt={project.title} className="project-image" />
+            <div style={{position: 'relative'}}>
+              <img src={project.image} alt={project.title} className="project-image" />
+              {(project.title === 'SIGMA PREDICTOR' || project.title === 'GIRLBOSS') && (
+                <div style={{
+                  position: 'absolute',
+                  top: '0',
+                  left: '0',
+                  width: '120px',
+                  height: '120px',
+                  overflow: 'hidden',
+                  zIndex: 2
+                }}>
+                  <div style={{
+                    position: 'absolute',
+                    top: '22px',
+                    left: '-30px',
+                    background: '#1a2b4a',
+                    color: '#FAF7EE',
+                    padding: '5px 40px',
+                    transform: 'rotate(-45deg)',
+                    fontSize: '11px',
+                    fontWeight: '600',
+                    letterSpacing: '0.5px',
+                    textAlign: 'center',
+                    boxShadow: '0 2px 4px rgba(26, 43, 74, 0.3)',
+                    borderBottom: '2px solid rgba(26, 43, 74, 0.8)'
+                  }}>
+                    WINNER
+                  </div>
+                </div>
+              )}
+            </div>
             <div className="project-info">
               <h2 className="project-title">{project.title}</h2>
               {project.problem && <div className="project-problem">Problem Solved: {project.problem}</div>}
