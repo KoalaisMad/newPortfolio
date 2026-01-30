@@ -4,12 +4,12 @@ import { useNavigate } from 'react-router-dom';
 const problems = [
   {
     title: "IS YOUR SIBILING NOT PLAYING FAIR? USE THIS TIC TAC TOE BOARD INSTEAD!",
-    // story: "Like the Problem says.",
-    // solution:
-    //   "Creating a TIC TAC TOE board that will act like the judge of the game. However, just a board is boring! Let's make a board in the AIR and a computer to play with!!",
-    // // github: ,
+    story: "Like the Problem says.",
+    solution:
+      "Creating a TIC TAC TOE board that will act like the judge of the game. However, just a board is boring! Let's make a board in the AIR and a computer to play with!!",
+    github: "https://github.com/KoalaisMad/AirTicTacToe",
     // demo: "https://yourdemo.com/tictactoe",
-    // expanded: true,
+    expanded: true,
   },
   { title: "CAN'T DECIDE WHERE TO EAT?",
     // story: "Like the Problem says.",

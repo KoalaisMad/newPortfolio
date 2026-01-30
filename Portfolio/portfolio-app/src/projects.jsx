@@ -7,7 +7,7 @@ const projects = [
     title: 'SIGMA PREDICTOR',
     problem: 'Helping users make smarter everyday financial decisions by understanding how today’s spending impacts future savings and interest growth.',
     description:
-      'Built an end-to-end personal finance forecasting platform with transaction-driven balance projections, daily interest calculations for checking and high-yield savings, and “what-if” simulations to preview transfers before execution. Developed predictive models to generate personalized insights, trend forecasts, and goal-based savings recommendations through an interactive dashboard. Won 1st Place in USAA Challenge at TAMU Hack 2026.',
+      'Built an end-to-end personal finance forecasting platform with transaction-driven balance projections, daily interest calculations for checking and high-yield savings, and “what-if” simulations to preview transfers before execution. Developed predictive models to generate personalized insights, trend forecasts, and goal-based savings recommendations through an interactive dashboard. Won 1st Place in USAA Challenge at TAMUHack 2026.',
     tech: 'CSS · ElevenLabs · Express.js · Figma · Gemini · Modeling · MongoDB · Next.js · Node.js · React · Recharts · shadcn/ui · Tailwind CSS · TypeScript · Vultr',
     image: '/SigmaPredictor.png',
     link:'https://devpost.com/software/sigma-predictor?ref_content=my-projects-tab&ref_feature=my_projects',
