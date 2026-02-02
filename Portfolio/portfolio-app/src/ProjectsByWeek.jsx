@@ -77,22 +77,22 @@ const weekData = [
         problem: 'Too many ads on free QR code generators.',
         techStack: ['React', 'JavaScript']
       },
-      {
-        title: 'DAILY AFFIRMATIONS',
-        image: false,
-        github: 'https://github.com/KoalaisMad',
-        description: 'Displays daily positive affirmations.',
-        problem: 'Helps improve mental well-being and positivity.',
-        techStack: ['React', 'CSS']
-      },
-      {
-        title: 'VISUALIZE YOUTUBE DATA',
-        image: false,
-        github: 'https://github.com/KoalaisMad',
-        description: 'Visualizes YouTube channel analytics.',
-        problem: 'Helps you with doom scrolling and uneducational content.',
-        techStack: ['React', 'YouTube API', 'Chart.js']
-      },
+      // {
+      //   title: 'DAILY AFFIRMATIONS',
+      //   image: false,
+      //   github: 'https://github.com/KoalaisMad',
+      //   description: 'Displays daily positive affirmations.',
+      //   problem: 'Helps improve mental well-being and positivity.',
+      //   techStack: ['React', 'CSS']
+      // },
+      // {
+      //   title: 'VISUALIZE YOUTUBE DATA',
+      //   image: false,
+      //   github: 'https://github.com/KoalaisMad',
+      //   description: 'Visualizes YouTube channel analytics.',
+      //   problem: 'Helps you with doom scrolling and uneducational content.',
+      //   techStack: ['React', 'YouTube API', 'Chart.js']
+      // },
     ],
   },
   {
@@ -101,7 +101,7 @@ const weekData = [
       {
         title: 'AIR TIC TAC TOE',
         image: false,
-        github: 'https://github.com/KoalaisMad',
+        github: "https://github.com/KoalaisMad/AirTicTacToe",
         description: 'A fun twist on classic Tic Tac Toe.',
         problem: 'helps siblings play fair without a physical board.',
         techStack: ['React', 'CSS']
