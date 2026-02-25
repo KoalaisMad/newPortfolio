@@ -53,16 +53,16 @@ const projects = [
     link: 'https://devpost.com/software/lalala-kzb9fw',
     github: 'https://github.com/obinnanprogrammed/tamuhack2024'
   },
-  {
-    title: 'NUTRISCAN',
-    problem: 'Helping people make healthier food choices and reducing food waste.',
-    description:
-      'Developed an AI-powered meal planning tool that converts grocery receipts into personalized meal recommendations. Built an OCR pipeline to extract purchased items and trained machine-learning models on 2M+ nutrition and recipe records to generate calorie- and allergy-aware meal plans.',
-    tech: 'Python · OCR · Machine Learning · Kaggle Datasets',
-    image: '/Nutri.png',
-    link: 'https://github.com/KoalaisMad/NutriScan',
-    github: 'https://github.com/KoalaisMad/NutriScan'
-  },
+  // {
+  //   title: 'NUTRISCAN',
+  //   problem: 'Helping people make healthier food choices and reducing food waste.',
+  //   description:
+  //     'Developed an AI-powered meal planning tool that converts grocery receipts into personalized meal recommendations. Built an OCR pipeline to extract purchased items and trained machine-learning models on 2M+ nutrition and recipe records to generate calorie- and allergy-aware meal plans.',
+  //   tech: 'Python · OCR · Machine Learning · Kaggle Datasets',
+  //   image: '/Nutri.png',
+  //   link: 'https://github.com/KoalaisMad/NutriScan',
+  //   github: 'https://github.com/KoalaisMad/NutriScan'
+  // },
   {
     title: 'SP/IT',
     problem: 'Reducing conflict between roommates over chores and expenses.',
