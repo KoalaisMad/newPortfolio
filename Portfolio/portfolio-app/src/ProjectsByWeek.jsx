@@ -3,6 +3,71 @@ import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 const weekData = [
+   {
+    week: 'WEEK 10 – MAR 2ⁿᵈ  – MAR 8ᵗʰ',
+    projects: [
+      {
+        title: 'JOBIFY',
+        image: false,
+        github: 'https://github.com/KoalaisMad',
+        description: 'An AI agent that helps with job applications.',
+        problem: 'I want to automate my job application process.',
+        techStack: ['React', 'Vite', 'CSS', 'Node.js', 'OpenAI API']
+      },
+    ],
+  },
+  {
+    week: 'WEEK 9– FEB 23ʳᵈ – MAR 1ˢᵗ',
+    projects: [
+      {
+        title: 'PRODNOTIFY',
+        image: false,
+        github: 'https://github.com/KoalaisMad',
+        description: 'A notification system that sends me alerta for a product when it is back in stock or drops in price.',
+        problem: 'I want to be notified when a product I am interested in is back in stock or drops in price.',
+        techStack: ['React', 'Vite', 'CSS', 'Node.js']
+      },
+    ],
+  },
+  {
+    week: 'WEEK 8 – FEB 16ᵗʰ – FEB 22nd',
+    projects: [
+      {
+        title: ' Best selling Amazon books',
+        image: false,
+        github: 'https://github.com/KoalaisMad',
+        description: 'Shows the best selling books on Amazon.',
+        problem: 'Hard to find best selling books on Amazon.',
+        techStack: ['React', 'Vite', 'CSS', 'Node.js']
+      },
+    ],
+  },
+  {
+    week: 'WEEK 7 – FEB 9ᵗʰ – FEB 15ᵗʰ',
+    projects: [
+      {
+        title: 'INSTARELIY',
+        image: false,
+        github: 'https://github.com/KoalaisMad',
+        description: 'Organizes Instagram reels by sorting them into categories.',
+        problem: 'Too many reels to manage and organize manually.',
+        techStack: ['React', 'Vite', 'CSS', 'Node.js']
+      },
+    ],
+  },
+  {
+    week: 'WEEK 6 – FEB 2 nd – FEB 8ᵗʰ',
+    projects: [
+      {
+        title: 'URL SHORTENER',
+        image: false,
+        github: 'https://github.com/KoalaisMad',
+        description: 'Shortens long URLs for easier sharing.',
+        problem: 'Long URLs are hard to remember and share.',
+        techStack: ['React', 'Vite', 'CSS', 'Node.js']
+      },
+    ],
+  },
   {
     week: 'WEEK 5 – JAN 26ᵗʰ – FEB 1ˢᵗ',
     projects: [
