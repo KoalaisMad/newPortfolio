@@ -3,19 +3,19 @@ import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 const weekData = [
-   {
-    week: 'WEEK 10 – MAR 2ⁿᵈ  – MAR 8ᵗʰ',
-    projects: [
-      {
-        title: 'JOBIFY',
-        image: false,
-        github: 'https://github.com/KoalaisMad',
-        description: 'An AI agent that helps with job applications.',
-        problem: 'I want to automate my job application process.',
-        techStack: ['React', 'Vite', 'CSS', 'Node.js', 'OpenAI API']
-      },
-    ],
-  },
+  //  {
+  //   week: 'WEEK 10 – MAR 2ⁿᵈ  – MAR 8ᵗʰ',
+  //   projects: [
+  //     {
+  //       title: 'JOBIFY',
+  //       image: false,
+  //       github: 'https://github.com/KoalaisMad',
+  //       description: 'An AI agent that helps with job applications.',
+  //       problem: 'I want to automate my job application process.',
+  //       techStack: ['React', 'Vite', 'CSS', 'Node.js', 'OpenAI API']
+  //     },
+  //   ],
+  // },
   {
     week: 'WEEK 9– FEB 23ʳᵈ – MAR 1ˢᵗ',
     projects: [
@@ -59,11 +59,11 @@ const weekData = [
     week: 'WEEK 6 – FEB 2 nd – FEB 8ᵗʰ',
     projects: [
       {
-        title: 'URL SHORTENER',
+        title: 'CALORIE CALCULATOR',
         image: false,
         github: 'https://github.com/KoalaisMad',
-        description: 'Shortens long URLs for easier sharing.',
-        problem: 'Long URLs are hard to remember and share.',
+        description: 'Calculates calories for a given meal.',
+        problem: 'I want to track my daily calorie intake.',
         techStack: ['React', 'Vite', 'CSS', 'Node.js']
       },
     ],
